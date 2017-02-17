@@ -33,7 +33,7 @@ This section describes how to setup the sample process. This description referen
 
 ### Setting up the BPM side
 * Copy the Kafka libraries into your BPM environment  
-  Copy all .jar files from the *$Kafka_install_path$/libs/* folder into the *$BPM_install_path$/v8.5/lib/ext/* folder.
+  Copy all .jar files from the *$IS_install_path$/ASBServer/apps/lib/iis/shared-open-source-clients/* folder into the *$BPM_install_path$/v8.5/lib/ext/* folder.
 * Import the .twx file located in the [KafkaEventProcessingSample](KafkaEventProcessingSample) folder into your BPM Process Designer.
 * Open the "Kafka Event Processing Sample" Process App in the Designer.
 * Open the "ProcessKafkaEventsIntoUCAs" Integration Service.
